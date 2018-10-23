@@ -6,8 +6,21 @@
 "Activities":[
 {"ActivityID":103,"StatusDatetime":"2018-10-09T13:38:58.0000000+02:00","Department":"Venezia","Aircraft":"VF-71","AcceptanceDatetime":null,"TakeoffDatetime":null,
 "RescueArriveDatetime":null,"RescueLeaveDatetime":null,"LandingDatetime":null}
+]},
+{"id": "CMD.RM.22.03102018", "RequestKey":"CMD.RM.22.03102018","Description":"test note dell'intervento ","Datetime":"2018-10-09T13:38:58.0000000+02:00","Lat":47.423452,"Lng":12.444646,
+"RequestType":"Incendio normale (generico)","Remarks":"test motivazione della richiesta","OnSiteContact":"polizia municapale","AreReliableCoordinates":true,
+"OperatorName":"Sala Operativa","OperatorSurname":"Installazione","OperatorFiscalCode":"INST",
+"Activities":[
+{"ActivityID":103,"StatusDatetime":"2018-10-09T13:38:58.0000000+02:00","Department":"Venezia","Aircraft":"VF-71","AcceptanceDatetime":null,"TakeoffDatetime":null,
+"RescueArriveDatetime":null,"RescueLeaveDatetime":null,"LandingDatetime":null}
 ]}
 	],
+	"rescueCategory":
+[
+{"CategoryCode":"A","CategoryName":"Ricerca e Soccorso"},{"CategoryCode":"B","CategoryName":"Spegnimento con Benna"},
+{"CategoryCode":"C","CategoryName":"Ricognizione"},{"CategoryCode":"D","CategoryName":"Trasporto Personale"},
+{"CategoryCode":"E","CategoryName":"Trasporto Attrezzature"}
+],
 	"profile": {
 		"name": "typicode"
 	}
