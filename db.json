@@ -1,23 +1,31 @@
 {
 	"rescueRequest" : [
-{"id": "CMD.VE.1.29082018", "RequestKey":"CMD.VE.1.29082018","Description":"test note dell'intervento ",
-	"Datetime":"2018-08-29T13:38:58.0000000+02:00","Lat":47.423452,"Lng":12.444646,
+{"id": "CMD.VE.1.26102018", "RequestKey":"CMD.VE.1.26102018","Description":"test note dell'intervento ",
+	"Datetime":"2018-10-26T13:38:58.0000000+02:00","Lat":47.423452,"Lng":12.444646,
 "RequestType":"Incendio normale (generico)","Remarks":"test motivazione della richiesta",
 	"OnSiteContact":"polizia municapale","AreReliableCoordinates":true,
 "OperatorName":"Sala Operativa","OperatorSurname":"Installazione","OperatorFiscalCode":"INST",
 "Activities":[
-{"ActivityID":103,"StatusDatetime":"2018-08-29T13:38:58.0000000+02:00",
-	"Department":"Venezia","Aircraft":"VF-71","AcceptanceDatetime":null,"TakeoffDatetime":null,
+{"ActivityID":103,"ActivityStatusType":"Attesa assegnazione SOCAV","StatusDatetime":"2018-10-26T13:38:58.0000000+02:00",
+	"Department":"Venezia","Aircraft":
+	{
+			"RegMark":"VF-52","Distance":493.0,"EstimatedFlightTime":17748000.0,"RescueCategories":null
+	},
+	"AcceptanceDatetime":null,"TakeoffDatetime":null,
 "RescueArriveDatetime":null,"RescueLeaveDatetime":null,"LandingDatetime":null}
 ]},
-{"id": "CMD.VE.2.22102018", "RequestKey":"CMD.VE.2.22102018","Description":"test note dell'intervento ",
-	"Datetime":"2018-10-22T13:38:58.0000000+02:00","Lat":47.423452,"Lng":12.444646,
+{"id": "CMD.VE.2.26102018", "RequestKey":"CMD.VE.2.26102018","Description":"test note dell'intervento ",
+	"Datetime":"2018-10-26T13:38:58.0000000+02:00","Lat":47.423452,"Lng":12.444646,
 "RequestType":"Incendio normale (generico)","Remarks":"test motivazione della richiesta",
 	"OnSiteContact":"polizia municapale","AreReliableCoordinates":true,
 "OperatorName":"Sala Operativa","OperatorSurname":"Installazione","OperatorFiscalCode":"INST",
 "Activities":[
-{"ActivityID":103,"StatusDatetime":"2018-10-22T13:38:58.0000000+02:00",
-	"Department":"Bologna","Aircraft":"VF-44","AcceptanceDatetime":null,"TakeoffDatetime":null,
+{"ActivityID":103,"ActivityStatusType":"Attesa Accettazione CE","StatusDatetime":"2018-10-26T13:38:58.0000000+02:00",
+	"Department":"Bologna","Aircraft":
+	{
+			"RegMark":"VF-44","Distance":353.0,"EstimatedFlightTime":12348000.0,"RescueCategories":null
+	},	
+	"AcceptanceDatetime":null,"TakeoffDatetime":null,
 "RescueArriveDatetime":null,"RescueLeaveDatetime":null,"LandingDatetime":null}
 ]}
 	],
